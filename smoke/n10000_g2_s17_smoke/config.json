@@ -1,0 +1,21 @@
+{
+  "run_id": "n10000_g2_s17_smoke",
+  "n_train": 100,
+  "input_sha256": "9310b599901c0bf003448b96dfbb160afe75f75737d54b281f629a9c800f1385",
+  "params": {
+    "dim": 10,
+    "lr": 0.25,
+    "epoch": 1,
+    "minCount": 1,
+    "minn": 0,
+    "maxn": 0,
+    "bucket": 10000000,
+    "loss": "softmax",
+    "thread": 1,
+    "lrUpdateRate": 100,
+    "verbose": 2,
+    "wordNgrams": 2,
+    "seed": 17
+  },
+  "started_at": "2026-11-03T13:48:59.848731+00:00"
+}
