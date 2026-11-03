@@ -1,0 +1,7 @@
+
+Read 0M words
+Number of words:  1725
+Number of labels: 4
+
+Progress: 100.0% words/sec/thread: 3635723 lr:  0.000000 avg.loss:  1.389599 ETA:   0h 0m 0s
+{"run_id": "n1000_g2_s17_smoke", "size": 1000, "ngram": 2, "seed": 17, "train_seconds": 0.198971600000732, "vocabulary_size": 1725, "params": {"dim": 10, "lr": 0.25, "epoch": 1, "minCount": 1, "minn": 0, "maxn": 0, "bucket": 10000000, "loss": "softmax", "thread": 1, "lrUpdateRate": 100, "verbose": 2, "wordNgrams": 2, "seed": 17}, "validation": {"accuracy": 0.40625, "macro_f1": 0.2739819004524887, "confusion": [[2, 0, 1, 4], [0, 0, 2, 4], [1, 1, 1, 2], [3, 0, 1, 10]], "per_class_f1": [0.3076923076923077, 0.0, 0.2, 0.5882352941176471], "n": 32, "inference_seconds": 0.00022290000015345868, "inference_repeats_seconds": [0.0003173000004608184, 0.00022290000015345868, 0.00021540000125241932]}, "test": {"accuracy": 0.5625, "macro_f1": 0.1956521739130435, "confusion": [[0, 0, 0, 0], [0, 0, 3, 3], [0, 1, 0, 0], [4, 0, 3, 18]], "per_class_f1": [0.0, 0.0, 0.0, 0.782608695652174], "n": 32, "inference_seconds": 0.00022959999841987155, "inference_repeats_seconds": [0.0002924999989772914, 0.00022429999989981297, 0.00022959999841987155]}}

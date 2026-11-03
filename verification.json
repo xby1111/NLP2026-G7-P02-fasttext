@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "runs": 18,
+  "predictions_checked": 208800,
+  "independent_metrics": "scikit-learn accuracy_score, f1_score, confusion_matrix",
+  "nested_subsets": true,
+  "train_validation_id_disjoint": true
+}

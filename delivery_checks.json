@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "pdf_pages": {
+    "midterm_progress.pdf": 1,
+    "report.pdf": 6,
+    "slides.pdf": 8
+  },
+  "official_runs": 18,
+  "predictions_checked": 208800,
+  "paired_inputs_equal": true,
+  "only_wordNgrams_differs_within_pairs": true,
+  "cases": 10,
+  "identity_fields": "G7 and four names/student IDs supplied. Responsibilities assigned; individual verification and contact person pending.",
+  "template": "Course template not supplied; uses stated A4 / single-column requirements.",
+  "submission_status": "Files prepared locally, not uploaded to course platforms."
+}

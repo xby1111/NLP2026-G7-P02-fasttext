@@ -1,0 +1,19 @@
+DONE n1000_g1_s17
+DONE n1000_g2_s17
+DONE n1000_g2_s42
+DONE n1000_g1_s42
+DONE n1000_g2_s2026
+DONE n1000_g1_s2026
+DONE n5000_g1_s17
+DONE n5000_g2_s17
+DONE n5000_g2_s42
+DONE n5000_g1_s42
+DONE n5000_g2_s2026
+DONE n5000_g1_s2026
+DONE n10000_g1_s17
+DONE n10000_g2_s17
+DONE n10000_g2_s42
+DONE n10000_g1_s42
+DONE n10000_g2_s2026
+DONE n10000_g1_s2026
+SUMMARY [{"size": 1000, "ngram": 1, "runs": 3, "test_accuracy_mean": 0.43526315789473685, "test_accuracy_sd": 0.012426375977918831, "test_macro_f1_mean": 0.36681981207580266, "test_macro_f1_sd": 0.021406354717792776, "train_seconds_mean": 0.05562203333283833, "train_seconds_sd": 0.0035945554890921276, "test_inference_seconds_mean": 0.045746633333692444, "test_inference_seconds_sd": 0.0012293395638359155, "validation_accuracy_mean": 0.4365833333333333, "validation_accuracy_sd": 0.014560935180589648}, {"size": 1000, "ngram": 2, "runs": 3, "test_accuracy_mean": 0.43065789473684213, "test_accuracy_sd": 0.0251996872644711, "test_macro_f1_mean": 0.3921281153007912, "test_macro_f1_sd": 0.04127005977750571, "train_seconds_mean": 0.22471506666746185, "train_seconds_sd": 0.007067190531364367, "test_inference_seconds_mean": 0.06166293333383995, "test_inference_seconds_sd": 0.000583519676357878, "validation_accuracy_mean": 0.42925, "validation_accuracy_sd": 0.029439556722206252}, {"size": 5000, "ngram": 1, "runs": 3, "test_accuracy_mean": 0.851359649122807, "test_accuracy_sd": 0.001369517104911938, "test_macro_f1_mean": 0.8512672941761676, "test_macro_f1_sd": 0.001503089776918498, "train_seconds_mean": 0.15447793333320683, "train_seconds_sd": 0.004144054390856716, "test_inference_seconds_mean": 0.04569306666720271, "test_inference_seconds_sd": 0.0011067498096648312, "validation_accuracy_mean": 0.8529166666666667, "validation_accuracy_sd": 0.0002886751345947811}, {"size": 5000, "ngram": 2, "runs": 3, "test_accuracy_mean": 0.8004385964912281, "test_accuracy_sd": 0.007593294777440208, "test_macro_f1_mean": 0.8002384569434913, "test_macro_f1_sd": 0.007775547529510214, "train_seconds_mean": 0.3780957666670777, "train_seconds_sd": 0.009492433367789158, "test_inference_seconds_mean": 0.0629175666666318, "test_inference_seconds_sd": 0.00019476047824014994, "validation_accuracy_mean": 0.8025833333333333, "validation_accuracy_sd": 0.006084474778757267}, {"size": 10000, "ngram": 1, "runs": 3, "test_accuracy_mean": 0.8726315789473684, "test_accuracy_sd": 0.0008003634908287038, "test_macro_f1_mean": 0.872562467497298, "test_macro_f1_sd": 0.0007710772873392079, "train_seconds_mean": 0.2698778000000554, "train_seconds_sd": 0.0024093252418254767, "test_inference_seconds_mean": 0.045735733333155316, "test_inference_seconds_sd": 0.0011825303480282872, "validation_accuracy_mean": 0.8764166666666666, "validation_accuracy_sd": 0.0008036375634161177}, {"size": 10000, "ngram": 2, "runs": 3, "test_accuracy_mean": 0.8699122807017544, "test_accuracy_sd": 0.0015697833480853953, "test_macro_f1_mean": 0.8698020668664244, "test_macro_f1_sd": 0.0015571374272545504, "train_seconds_mean": 0.5589142666667613, "train_seconds_sd": 0.01018039537603431, "test_inference_seconds_mean": 0.06369110000014189, "test_inference_seconds_sd": 0.002653472719107198, "validation_accuracy_mean": 0.8750833333333333, "validation_accuracy_sd": 0.0027876214472796084}]

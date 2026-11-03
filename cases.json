@@ -1,0 +1,122 @@
+[
+  {
+    "id": "test:000004",
+    "category": "both_wrong",
+    "gold": 4,
+    "unigram_pred": 2,
+    "bigram_pred": 2,
+    "unigram_confidence": 0.7274932861328125,
+    "bigram_confidence": 0.72138512134552,
+    "excerpt": "prediction unit helps forecast wildfires ( ap ) ap - it ' s barely dawn when mike fitzpatrick starts his shift with a blur of colorful maps ,",
+    "source_note": "Short quotation for error analysis. Recover complete text from the fixed public source and sample ID.",
+    "analysis": "野火预测属于科技／环境报道，两种模型均判为体育，且置信度约 0.72。它说明高预测分数不保证正确；仅靠局部词组仍可能漏掉整篇报道的主题。尚未做词级归因，不能把错误确定归因于某个词。"
+  },
+  {
+    "id": "test:000005",
+    "category": "both_wrong",
+    "gold": 4,
+    "unigram_pred": 1,
+    "bigram_pred": 1,
+    "unigram_confidence": 0.5236775875091553,
+    "bigram_confidence": 0.4630134403705597,
+    "excerpt": "calif . aims to limit farm-related smog ( ap ) ap - southern california ' s smog-fighting agency went after emissions of the bovine variety friday , adopting",
+    "source_note": "Short quotation for error analysis. Recover complete text from the fixed public source and sample ID.",
+    "analysis": "减排规章同时包含环境技术和地方公共治理信息，真值为科技，两种模型均判为世界新闻。这是相邻主题的边界案例；不能仅凭模型分歧认定标注错误。"
+  },
+  {
+    "id": "test:000009",
+    "category": "bigram_regression",
+    "gold": 4,
+    "unigram_pred": 4,
+    "bigram_pred": 3,
+    "unigram_confidence": 0.481722891330719,
+    "bigram_confidence": 0.382424920797348,
+    "excerpt": "e-mail scam targets police chief wiltshire police warns about phishing after its fraud squad chief was targeted .",
+    "source_note": "Short quotation for error analysis. Recover complete text from the fixed public source and sample ID.",
+    "analysis": "网络钓鱼报道包含 e-mail 和 phishing，也包含诈骗语境。unigram 判对科技，bigram 判为商业。词组特征并未稳定保留技术线索；具体作用仍需归因实验验证。"
+  },
+  {
+    "id": "test:000020",
+    "category": "bigram_regression",
+    "gold": 4,
+    "unigram_pred": 4,
+    "bigram_pred": 3,
+    "unigram_confidence": 0.5903068780899048,
+    "bigram_confidence": 0.640629768371582,
+    "excerpt": "storage , servers bruise hp earnings update earnings per share rise compared with a year ago , but company misses analysts ' expectations by a long shot .",
+    "source_note": "Short quotation for error analysis. Recover complete text from the fixed public source and sample ID.",
+    "analysis": "HP 服务器与盈利预期同时出现。真值为科技；unigram 判对，bigram 判商业。商业／科技边界与词组稀疏性都是可能因素，但单条案例无法识别因果。"
+  },
+  {
+    "id": "test:000021",
+    "category": "bigram_fix",
+    "gold": 4,
+    "unigram_pred": 3,
+    "bigram_pred": 4,
+    "unigram_confidence": 0.6746318936347961,
+    "bigram_confidence": 0.5970466732978821,
+    "excerpt": "ibm to hire even more new workers by the end of the year , the computing giant plans to have its biggest headcount since 1991 .",
+    "source_note": "Short quotation for error analysis. Recover complete text from the fixed public source and sample ID.",
+    "analysis": "IBM 招聘报道兼有就业和计算机公司信息。bigram 从商业纠正为科技，说明它在部分样本有效；这不能替代整体准确率与净纠正数。"
+  },
+  {
+    "id": "test:000105",
+    "category": "bigram_fix",
+    "gold": 1,
+    "unigram_pred": 2,
+    "bigram_pred": 1,
+    "unigram_confidence": 0.49461013078689575,
+    "bigram_confidence": 0.6833903789520264,
+    "excerpt": "mr downer shoots his mouth off just what alexander downer was thinking when he declared on radio last friday that quot they could fire a missile from north",
+    "source_note": "Short quotation for error analysis. Recover complete text from the fixed public source and sample ID.",
+    "analysis": "报道涉及澳大利亚官员与朝鲜导弹言论，真值为世界新闻。bigram 将 unigram 的体育错误纠正；具体局部词组是否起作用仍未检验。"
+  },
+  {
+    "id": "test:000001",
+    "category": "both_correct",
+    "gold": 3,
+    "unigram_pred": 3,
+    "bigram_pred": 3,
+    "unigram_confidence": 0.8052326440811157,
+    "bigram_confidence": 0.4932539165019989,
+    "excerpt": "fears for t n pension after talks unions representing workers at turner newall say they are ' disappointed ' after talks with stricken parent firm federal mogul .",
+    "source_note": "Short quotation for error analysis. Recover complete text from the fixed public source and sample ID.",
+    "analysis": "养老金与企业谈判属于商业，两种模型均判对。bigram 分数较低并不等于预测错误；本实验未做概率校准。"
+  },
+  {
+    "id": "test:000002",
+    "category": "both_correct",
+    "gold": 4,
+    "unigram_pred": 4,
+    "bigram_pred": 4,
+    "unigram_confidence": 0.9997342228889465,
+    "bigram_confidence": 0.9969487190246582,
+    "excerpt": "the race is on second private team sets launch date for human spaceflight ( space . com ) space . com - toronto , canada -- a second\\team",
+    "source_note": "Short quotation for error analysis. Recover complete text from the fixed public source and sample ID.",
+    "analysis": "私人载人航天的主题明确，两种模型均正确判为科技。这是成功对照，说明模型能识别清晰的领域信息。"
+  },
+  {
+    "id": "test:000010",
+    "category": "both_wrong",
+    "gold": 4,
+    "unigram_pred": 3,
+    "bigram_pred": 3,
+    "unigram_confidence": 0.9135968089103699,
+    "bigram_confidence": 0.7307756543159485,
+    "excerpt": "card fraud unit nets 36 , 000 cards in its first two years , the uk ' s dedicated card fraud unit , has recovered 36 , 000",
+    "source_note": "Short quotation for error analysis. Recover complete text from the fixed public source and sample ID.",
+    "analysis": "银行卡诈骗报道真值为科技，两种模型均判商业；金融词汇与安全技术主题交叉，是需要上下文判别的边界。"
+  },
+  {
+    "id": "test:000016",
+    "category": "both_wrong",
+    "gold": 4,
+    "unigram_pred": 3,
+    "bigram_pred": 3,
+    "unigram_confidence": 0.5339671969413757,
+    "bigram_confidence": 0.6946430802345276,
+    "excerpt": "teenage t . rex ' s monster growth tyrannosaurus rex achieved its massive size due to an enormous growth spurt during its adolescent years .",
+    "source_note": "Short quotation for error analysis. Recover complete text from the fixed public source and sample ID.",
+    "analysis": "恐龙生长属于科学，两种模型均判为商业。growth 等词可能跨域使用；这只是待检验解释，并非已确认的词级因果证据。"
+  }
+]
