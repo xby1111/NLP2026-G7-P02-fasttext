@@ -1,0 +1,42 @@
+{
+  "attachment_note": "Supplied main ZIP has no git directory; exact upstream commit is unknown. Not the engine binary used in these experiments.",
+  "files": {
+    "E17-2068.pdf": "54070bc0dc0670bcab027f6f4424201f20f4896a9a7f8f033c2a61bab9886863",
+    "fastText-main.zip": "86682692f4fc4a165fe59d86350851742820bd758b927745fc486b957c368607"
+  },
+  "wheel_file": "fasttext_wheel-0.9.2-cp311-cp311-win_amd64.whl",
+  "wheel_sha256": "1afb40118fb1b39e159bbdded14834a6a95415c0be957553647b9d70c7cc45ff",
+  "source_classification_script_sha256": "4e493fdfa364001de6bb355590afd47f58ae945373c80792e858048deec2d462",
+  "retrieved_date": "2026-11-03",
+  "source_zip_extracted_src_sha256": {
+    "aligned.h": "e7612fa4bf1386a6b2a8d91590a1a06688c682203c92803406342a9d1e61f9d5",
+    "args.cc": "34870849cd944a2f89d6f87564b5a1ec897af415121647c8276cd47d2b673603",
+    "args.h": "235b16135b7869baeb442cc01e55718d26831036852199520b0934631698746e",
+    "autotune.cc": "f1ef03070a3b67972ae8871e7859d3e7f6fabf0e92200c8f64cafd7d62feabd9",
+    "autotune.h": "0f111f261f63ed08fa12de222ed75516e504a66069ef2ba9c7edeee53ff2984f",
+    "densematrix.cc": "e5692b0e0c49dc81022ea31bec42b5ab100e8376d5a57f5ef15b71ebc4ec32cb",
+    "densematrix.h": "b79493c2aae55d45fd23d838ad2eaccce3347bfdd6b6f51719cc9196bd45fac1",
+    "dictionary.cc": "a147984811c7815f9e3121c5a8242025c5a74ccd788eb8d223265a0ab7f30a87",
+    "dictionary.h": "8d554cc9ec4a40329b39743e2a226ff5ff1ccfa0fc193ac8f002cf7bb49b60c0",
+    "fasttext.cc": "07292cbcec567a10193e8ef2bca265fab6985025bdcfc899c807c98aeb4e4855",
+    "fasttext.h": "644996be394531cc9abac5e6bf2edbbb49631f8c8c48b685bd061a1771788a6d",
+    "loss.cc": "5282fb64f6df248b39f373f323c49a83a8ad36c3bbd3cbb1dd680a4c77c09447",
+    "loss.h": "d739ab7583ea2da3519af0fb6bc8893e4cd3fdd553ca91cc41080d4a11e68007",
+    "main.cc": "702995b14cbb108367283239a43ed44660aff12bb3854a8582cc593dbf2f9ffb",
+    "matrix.cc": "a5f8c58d679a15fb0299996c5997dc4a3ef6dfe526543d3a74842810d53f216d",
+    "matrix.h": "593ec94fae8419700ac96a7ad3831aada0691bbbaa135cef1b57dc222aeddc20",
+    "meter.cc": "7738ea108876ab12619ddfe6a6316707e3e4be19d1ddffbc44ec40f0497c0985",
+    "meter.h": "ad3a0f1a5c419ecd7877ab68bc8a26579e7b148e6c6b35ddf822645fce650cf1",
+    "model.cc": "1019cb40ea247f7d19bb6db9277b1dd5d1cd8c5fe6e98f223e0b50eeda3e15d8",
+    "model.h": "d66e9a0cb1bee9c1e74c25d738ce1ddba927380f98cc22da81eab4486f280c12",
+    "productquantizer.cc": "8c26c21398d8b85217250e540f27a6bbb4f59f436c20322794b545abc3058623",
+    "productquantizer.h": "07b2d58edc4546501ea99d62c3725a7f8cc5d03816b112bb2995a16d4eb8b7ec",
+    "quantmatrix.cc": "070d8e39db7ad99d7d562ec74200361535c566a61ce018e2683c16f53b0903e9",
+    "quantmatrix.h": "8bea95168e9bf4d69e2cfbd78cfbea207bf4c89f88e33b9514dbf9d7844605e5",
+    "real.h": "064e51f29f457eec18943f1420a51e5e2044e8f9cd683c90e0d22baa9e96218b",
+    "utils.cc": "49f08a22e590d140526ddb7b24469327fb28f2e78a74def5032c551e9eff5df2",
+    "utils.h": "d20f782981630dc077b1402b3d7b58ae549edb3c6c6d1c79acc67f601fccc709",
+    "vector.cc": "d864f14171e283a670655a2221df0a50a9d8c068c61e7ba78e25412a97958aea",
+    "vector.h": "a3b9ec2b598af05c39747157fd58f94f8527018cd215e70a850edda19182b241"
+  }
+}

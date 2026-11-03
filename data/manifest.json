@@ -1,0 +1,34 @@
+{
+  "train": {
+    "csv_sha256": "76a0a2d2f92b286371fe4d4044640910a04a803fdd2538e0f3f29a5c6f6b672e"
+  },
+  "test": {
+    "csv_sha256": "521465c2428ed7f02f8d6db6ffdd4b5447c1c701962353eb2c40d548c3c85699"
+  },
+  "audit": {
+    "1000": {
+      "unique_texts": 1000,
+      "train_validation_text_overlap": 0,
+      "train_test_text_overlap": 0
+    },
+    "5000": {
+      "unique_texts": 5000,
+      "train_validation_text_overlap": 0,
+      "train_test_text_overlap": 1
+    },
+    "10000": {
+      "unique_texts": 9999,
+      "train_validation_text_overlap": 0,
+      "train_test_text_overlap": 1
+    }
+  },
+  "split_ids_sha256": "abaa5b69ac13cc3affe005e0722fbd9be924beb28164b4daf447d691e7946056",
+  "normalized_jsonl_sha256": {
+    "test.jsonl": "594570c916cbbe22608c1d595bc2fa106e8aafcdce7bcb4cad8d973ccfbab630",
+    "train_1000.jsonl": "db0b1ce3bab0f2609628b9f5594b162c9022eaa76a274b05631f47ec29106c3b",
+    "train_10000.jsonl": "bd2a74f54ead6d03425bb11815dfd8ff0858a4deb8486839c48d9c7b97d9af08",
+    "train_5000.jsonl": "28539f0f4ab4d55e840e7bfd3573078580f5f3ea745d17a77aacdf0dc0f75b5c",
+    "validation.jsonl": "d8e2129d24d824dc36b4a2c0b8ed524a83a960a5cc665c856be9a593679ecfc9"
+  },
+  "created_at": "2026-11-03T21:46:24.231829+08:00"
+}

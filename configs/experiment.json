@@ -1,0 +1,20 @@
+{
+  "dataset": "AG News",
+  "sizes": [1000, 5000, 10000],
+  "split_seed": 2026,
+  "validation_size": 4000,
+  "seeds": [17, 42, 2026],
+  "fasttext": {
+    "dim": 10,
+    "lr": 0.25,
+    "epoch": 5,
+    "minCount": 1,
+    "minn": 0,
+    "maxn": 0,
+    "bucket": 10000000,
+    "loss": "softmax",
+    "thread": 1,
+    "lrUpdateRate": 100,
+    "verbose": 2
+  }
+}
